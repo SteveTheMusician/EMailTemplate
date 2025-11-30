@@ -7,7 +7,7 @@ Email Templates for sending mails from server
 - create a .env file in the backend and write your server configs in it
 - start server.js in the backend folder and open port (4k)
     - node server.js
-- open page, fill an e-mail to send message to and klick on send
+- open page, fill an e-mail adress to send message to in to the input and klick on send
 
 ## npms
 - nodemailer @react-email/components

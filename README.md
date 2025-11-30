@@ -15,5 +15,6 @@ dotenv
 express@4.18.2
 
 ## other
-the main front-end functions are in the src/content/DemoContent.js
-e-mail html template is in backend/mail
+- the main front-end functions are in the src/content/DemoContent.js
+- e-mail html template is in backend/mail
+- react frontend (from my own boilerplate)

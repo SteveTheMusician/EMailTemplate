@@ -4,15 +4,15 @@ Email Templates for sending mails from server
 ## run
 - build frontend first (cuz backend uses the build folder)
     - npm run build
-- start server.js in the backend folder and open port
+- create a .env file in the backend and write your server configs in it
+- start server.js in the backend folder and open port (4k)
     - node server.js
-- open page and klick on send
-- IMPORTANT: of course backend needs the correct .env file to run -> u have to create one
+- open page, fill an e-mail to send message to and klick on send
 
 ## npms
-nodemailer @react-email/components
-dotenv
-express@4.18.2
+- nodemailer @react-email/components
+- dotenv
+- express@4.18.2
 
 ## other
 - the main front-end functions are in the src/content/DemoContent.js

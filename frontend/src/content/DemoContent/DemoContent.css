@@ -1,0 +1,42 @@
+.demoContent {
+    padding: 60px;
+    border-radius: var(--borderradius-default);
+    box-shadow: #00000055 -1px 18px 20px 5px;
+    outline: 2px solid var(--color-text);
+    transition: var(--transition-default);
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
+}
+
+.demoContent:hover {
+    transform: scale(1.1);
+    box-shadow: var(--box-shadow-default);
+}
+
+.buttonSend {
+    padding: 14px;
+    border-radius: 14px;
+    min-width: 200px;
+    border: 1px solid var(--color-highlight);
+    color: var(--color-highlight);
+    transition: var(--transition-default);
+    font-size: 16px;
+}
+
+.buttonSend:hover {
+    background-color: var(--color-highlight);
+    color: var(--color-white);
+}
+
+.inputMail {
+    padding: 14px;
+    border-radius: 14px;
+    min-width: 200px;
+    border: 1px solid var(--color-highlight);
+    color: var(--color-text);
+    transition: var(--transition-default);
+    font-size: 16px;
+    outline: 0;
+    background-color: transparent;
+}

@@ -1,0 +1,75 @@
+@import '../../index.css';
+
+:root {
+
+    --color-background: var(--color-oceans-background);
+    --color-primary: var(--color-ocean-green);
+    --color-secondary: var(--color-ocean-ground);
+    --color-tertiary: var(--color-ocean-forgotten-blue);
+
+    --color-input: var(--color-ocean-dark-blue);
+    --color-highlight: var(--color-heart-green);
+
+    --color-placeholder: var(--color-oceans-background);
+    --color-text: var(--color-ocean-pale-blue);
+    --color-text-light: var(--color-angel-white);
+
+    --color-homeoffice: var(--color-uv);
+    --color-vacation: var(--color-citrus);
+    --color-training: var(--color-sky);
+    --color-ill: var(--color-lipstick);
+    --color-absent: var(--color-carrot);
+
+    --borderradius-default: 20px;
+    --borderradius-small: 6px;
+    --transition-default: .3s;
+
+    --box-shadow-default: #00000024 -1px 18px 60px 5px;
+    --opacity-nofocus: 0.5;
+   }
+
+div {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+button, a {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Icon {
+    fill: white;
+    transition: var(--transition-default);
+}
+
+.Dialog-Titel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2f4f59;
+    text-transform: uppercase;
+    font-size: 16px;
+    user-select: none;
+}
+
+.Text-Default {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea::placeholder {
+    color: var(--color-placeholder);
+}

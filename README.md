@@ -10,7 +10,9 @@ Email Templates for sending mails from server
 - IMPORTANT: of course backend needs the correct .env file to run -> u have to create one
 
 ## npms
-npm install nodemailer @react-email/components
+nodemailer @react-email/components
+dotenv
+express@4.18.2
 
 ## other
 the main front-end functions are in the src/content/DemoContent.js
